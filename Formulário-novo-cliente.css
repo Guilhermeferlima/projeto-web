@@ -1,0 +1,121 @@
+/*Fomulário de Dados do cliente novo*/
+.container{
+    display: flex;
+    position: center;
+    max-width: 440px;
+    width: 100%;
+    padding: 15px;
+    margin: 25px;
+    color:black;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    align-content: center;
+    margin-left: 90px;
+}
+
+.container .forms{
+    width: 100%;
+    padding: 30px;
+}
+
+.container .forms .dados{
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .title::before{
+    content:'';
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 25px;
+}
+
+.forms .input-field{
+    position: relative;
+    height: 50px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    translate: all 0.5s ease;
+}
+
+.input-field input:is(:focus, :valid){
+    border-bottom-color:rgb(4, 20, 250) ;
+}
+
+.input-field span{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: grey;
+    font-size: 23px;
+}
+
+.input-field input:is(:focus, :valid) ~ span{
+    color:rgb(8, 4, 250) ;
+}
+
+.forms .checkbox-text{
+    display: flex;
+    font-size: 12px;
+}
+
+.forms .checkbox-text{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input{
+    margin: 0 8px -2px 0;
+}
+
+.forms .text{
+    color: rgb(79, 76, 76);
+    font-size: 14px;
+}
+
+.forms a{
+    text-decoration: none;
+}
+
+.forms a:hover{
+    text-decoration: underline;
+}
+
+.forms .button input{
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    background-color: rgb(20, 4, 250);
+    cursor: pointer;
+}

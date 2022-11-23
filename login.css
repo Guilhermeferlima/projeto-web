@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0655ff;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+
+.logo{
+    width: 100%;
+}
+
+.logo a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.logo a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.logo a:hover::after{
+    width: 100%;
+}
+
+
+header{
+    display: block;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    width: 100%;
+}
+
+
+/*Formulario de acesso do assinante*/
+
+.container{
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    padding: 15px;
+    margin: 25px;
+}
+.container{   
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.container .forms{
+    position: relative;
+    padding: 30px;
+    max-width: 480px;
+    width: 100%;
+}
+
+.container .forms .dados{
+    position: relative;
+    max-width: 480px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .title::before{
+    content:'';
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: blue;
+    border-radius: 25px;
+}
+
+.forms .input-field{
+    position: relative;
+    height: 50px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    translate: all 0.5s ease;
+}
+
+.input-field input:is(:focus, :valid){
+    border-bottom-color:#1201f8 ;
+}
+
+.input-field span{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: grey;
+    font-size: 23px;
+}
+
+.input-field input:is(:focus, :valid) ~ span{
+    color:#1201f8;
+}
+
+.forms .checkbox-text{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input{
+    margin: 0 8px -2px 0;
+}
+
+.forms .text{
+    color: rgb(79, 76, 76);
+    font-size: 14px;
+}
+
+.forms a{
+    text-decoration: none;
+}
+
+.forms a:hover{
+    text-decoration: underline;
+}
+
+.forms .button input{
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: rgb(0, 38, 251);
+    cursor: pointer;
+}
+
+.button a{
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: aqua;
+    border-radius: 6px;
+}
