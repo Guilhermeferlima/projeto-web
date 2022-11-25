@@ -45,6 +45,7 @@ nav ul li a {
 a.active, a:hover {
 	background: #093add;
 	transition: .5s;
+	border-radius: 15px;
 }
 .checkbtn {
 	font-size: 30px;
