@@ -4,6 +4,7 @@
 }
 
 .footer-content{
+    position: fixed;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -35,5 +36,17 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-content h3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-content p{
+    display: flex;
+    width: 100%;
     justify-content: center;
 }
