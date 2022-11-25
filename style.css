@@ -18,6 +18,7 @@ nav {
 	background: #2670e0;
 	height: 80px;
 	width: 100%;
+	box-shadow: 3px 2px 2px;
 }
 label.logo {
 	color: white;
