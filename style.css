@@ -9,6 +9,7 @@
 
 
 body {
+	width: 100%;
 	font-family: 'Poppins', sans-serif;
 	background-color: blue;
 	overflow-x: hidden;
@@ -108,7 +109,6 @@ section {
 /*Imagem de Planos em Oferta*/
 
 .planos{
-	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
