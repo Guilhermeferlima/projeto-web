@@ -19,17 +19,20 @@
 .footer-content .socials{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     justify-content: center;
 }
 
 .socials img{
-    width: 50px;
+    position: relative;
+    width: 40px;
     margin: 15px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.socials .icones{
+.footer-content .icones{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
