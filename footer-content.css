@@ -28,8 +28,6 @@
     position: relative;
     width: 40px;
     margin: 15px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .footer-content .icones{

@@ -9,14 +9,16 @@
 
 
 body{
-	width: 100%;
 	padding: 0;
 	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	font-family: 'Poppins', sans-serif;
 	background-color: blue;
 	overflow-x: hidden;
 }
-@media screen and ( max-width: 768px) {
+@media screen and (max-width: 768px) {
 	body{
 		width: 100%;
 		padding: 0;
@@ -127,14 +129,17 @@ section {
 /*Imagem de Planos em Oferta*/
 
 .planos{
+	max-width: 900px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
+	margin-left: -200px;
 }
 
 .planos img{
-	width: 700px;
-	height: 400px;
+	align-content: center;
+	width: 100%;
 }
 
 

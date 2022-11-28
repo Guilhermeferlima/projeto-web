@@ -1,7 +1,8 @@
 /*Fomulário de Dados do cliente novo*/
+
 .container{
-    display: flex;
-    position: center;
+    position: relative;
+    align-content: center;
     max-width: 440px;
     width: 100%;
     padding: 15px;
