@@ -129,13 +129,17 @@ section {
 /*Imagem de Planos em Oferta*/
 
 .planos{
-	max-width: 900px;
+	max-width: 758px;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	background-color: red;
 }
 
 .planos img{
+	max-width: 858px;
 	width: 100%;
 }
 
