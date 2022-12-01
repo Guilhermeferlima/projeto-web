@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     position: relative;
     color: white;
@@ -35,8 +36,8 @@
 }
 
 .icones li a{
+    width: 100%;
     transition: none;
-    text-decoration: none;
 }
 
 .footer-content h3{
