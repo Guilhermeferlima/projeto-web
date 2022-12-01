@@ -1,7 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+
 
 .footer-content{
     position: fixed;
@@ -35,6 +32,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.icones li a{
+    transition: none;
+    text-decoration: none;
 }
 
 .footer-content h3{

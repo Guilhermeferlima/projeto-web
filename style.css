@@ -59,7 +59,6 @@ nav ul li a {
 	font-size: 17px;
 	padding: 7px 13px;
 	border-radius: 3px;
-	text-transform: uppercase;
 }
 a.active, a:hover {
 	background: #093add;
@@ -108,7 +107,7 @@ a.active, a:hover {
 	nav ul li a {
 		font-size: 20px;
 	}
-	a:hover, a.active {
+	ul a:hover, a ul.active {
 		background: #093add;
 		color: #e6e6e6;
 		border-radius: 15px;
@@ -129,16 +128,19 @@ section {
 /*Imagem de Planos em Oferta*/
 
 .planos{
-	max-width: 758px;
+	max-width: 658px;
 	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
+
 }
 
 .planos img{
-	max-width: 858px;
+	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 }
 
