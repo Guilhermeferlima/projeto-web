@@ -142,6 +142,17 @@ section {
 	width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+	.planos{
+		width: 100%;
+		justify-content: center;
+	}
+
+	.planos img{
+		width: 100%;
+
+	}
+}
 
 ::-webkit-scrollbar{
     width: 8px;
