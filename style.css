@@ -13,7 +13,7 @@ body{
 	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
 	font-family: 'Poppins', sans-serif;
 	background-color: blue;
 	overflow-x: hidden;

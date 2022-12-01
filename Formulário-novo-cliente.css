@@ -1,10 +1,8 @@
 /*Fomulário de Dados do cliente novo*/
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 668px){
+ 
     .container{
         position: relative;
-        justify-content: center;
-        align-items: center;
         max-width: 440px;
         width: 100%;
         padding: 15px;
@@ -19,12 +17,11 @@
 }
 .container{
     position: relative;
-    justify-content: center;
-    align-items: center;
+    display: flex;
     max-width: 440px;
     width: 100%;
     padding: 15px;
-    margin: 100px;
+    margin: 25px;
     color:black;
     background: white;
     border-radius: 15px;
@@ -32,6 +29,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
+
 
 .container .forms{
     width: 100%;
