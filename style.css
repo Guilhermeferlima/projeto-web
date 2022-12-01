@@ -22,6 +22,7 @@ body{
 	body{
 		width: 100%;
 		padding: 0;
+		margin: 0;
 	}
 }
 
@@ -60,7 +61,7 @@ nav ul li a {
 	padding: 7px 13px;
 	border-radius: 3px;
 }
-a.active, a:hover {
+a.active,  nav ul li a:hover {
 	background: #093add;
 	transition: .5s;
 	border-radius: 15px;
@@ -107,7 +108,7 @@ a.active, a:hover {
 	nav ul li a {
 		font-size: 20px;
 	}
-	a:hover, a.active {
+	nav ul li a:hover, a.active {
 		background: #093add;
 		color: #e6e6e6;
 		border-radius: 15px;
@@ -132,13 +133,12 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
+	align-content: center;
 
 }
 
 .planos img{
 	display: flex;
-	flex-wrap: wrap;
 	width: 100%;
 }
 
