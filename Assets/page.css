@@ -7,9 +7,13 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
 }
 
 
@@ -100,13 +104,10 @@ a.active,  nav ul li a:hover {
 
 .conteudo{
     display: flex;
-    align-content: center;
-    margin: 15px;
-    padding: 5px;
 }
 
-.conteudo .objetivo{
-    margin: 15px;
+.objetivo{
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
@@ -117,5 +118,14 @@ a.active,  nav ul li a:hover {
 
 
 .objetivo img{
-    width: 700px;
+    margin: 20px;
+    width: 800px;
+}
+
+
+.objetivo .texto{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
 }
