@@ -103,23 +103,29 @@ a.active,  nav ul li a:hover {
 }
 
 .conteudo{
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
     display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .objetivo{
-    margin: 20px;
+    width: 100%;
+    margin: 15px;
+    padding: 5px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    border-radius: 10px;
     background-color: rgb(228, 220, 220);
 }
 
 
 .objetivo img{
-    margin: 20px;
     width: 800px;
 }
 
