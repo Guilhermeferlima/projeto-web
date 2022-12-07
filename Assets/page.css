@@ -107,13 +107,14 @@ a.active,  nav ul li a:hover {
 }
 
 .objetivo{
-    margin: auto;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: rgb(228, 220, 220);
 }
 
 
