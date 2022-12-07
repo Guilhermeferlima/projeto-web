@@ -126,14 +126,16 @@ a.active,  nav ul li a:hover {
     width: 100%;
     margin: 20px;
     padding: 10px;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-content: center;
 }
 
+
+/*BACKGROUND 1  */
 .objetivo{
     width: 100%;
-    margin: 15px;
+    margin: 10px;
     padding: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -160,17 +162,19 @@ a.active,  nav ul li a:hover {
 	}
 }
 
-.objetivo img{
+img{
     width: 800px;
 	
 }
 
-@media screen and (max-width: 560px){
-	.objetivo img{
-		width: 300px;
+@media screen and (max-width: 768px){
+	img{
+		width: 100%;
 		margin: 15px;
 		padding: 5px;
 	}
+
+	
 }
 
 
@@ -180,3 +184,26 @@ a.active,  nav ul li a:hover {
     flex-wrap: wrap;
     width: 400px;
 }
+
+
+/*BACKGROUND 2 */
+.conteudo .objetivo1{
+	
+		width: 100%;
+		margin: 10px;
+		padding: 5px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		border-radius: 10px;
+		background-color: rgb(238, 238, 238);
+	}
+
+	.objetivo1 .texto{
+		margin: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		width: 400px;
+	}
