@@ -140,9 +140,28 @@ a.active,  nav ul li a:hover {
     background-color: rgb(228, 220, 220);
 }
 
+@media screen and (max-width: 858px){
+	.conteudo {
+		width: 100%;
+		margin: 5px;
+		padding: 5px;
+		align-content: center;
+		justify-content: center;
+	}
+}
+
 
 .objetivo img{
     width: 800px;
+	background-color: red;
+}
+
+@media screen and (max-width: 560px){
+	.objetivo img{
+		width: 300px;
+		margin: 15px;
+		padding: 5px;
+	}
 }
 
 
@@ -151,4 +170,5 @@ a.active,  nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
+	background-color: #093add;
 }
