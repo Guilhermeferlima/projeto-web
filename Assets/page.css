@@ -9,6 +9,7 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 
@@ -95,4 +96,26 @@ a.active,  nav ul li a:hover {
 	#check:checked ~ ul {
 		left: 0;
 	}
+}
+
+.conteudo{
+    display: flex;
+    align-content: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+.conteudo .objetivo{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.objetivo img{
+    width: 700px;
 }
