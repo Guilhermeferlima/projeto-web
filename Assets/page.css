@@ -20,6 +20,8 @@ body{
 	color: white;
 }
 
+#mais{display: none;}
+
 
 @media screen and (max-width: 768px) {
 	body{
@@ -207,3 +209,21 @@ img{
 		flex-wrap: wrap;
 		width: 400px;
 	}
+
+
+.objetivo1 button{
+	width: 80px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+button:hover{
+	background-color: #c0c0c0;
+	top: 80px;
+	left: -100%;
+	text-align: center;		
+	transition: all .5s;
+}
