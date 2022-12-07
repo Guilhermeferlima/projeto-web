@@ -17,6 +17,22 @@ body{
 }
 
 
+@media screen and (max-width: 768px) {
+	body{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	nav{
+		width: 100%;
+	}
+	
+}
+
+
 nav {
 	background: #2670e0;
 	height: 80px;
