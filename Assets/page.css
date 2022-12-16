@@ -227,3 +227,14 @@ button:hover{
 	text-align: center;		
 	transition: all .5s;
 }
+
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: aqua;
+    border-radius: 6px;
+}
